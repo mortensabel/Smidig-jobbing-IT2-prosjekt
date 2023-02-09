@@ -1,0 +1,10 @@
+nav{
+    background-color: #888DA7;
+ 
+}
+nav a img{
+    width: 10%;
+}
+nav a:hover{
+    color: #9C7A97;
+}
