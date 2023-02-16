@@ -32,23 +32,47 @@ nav .logo{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 nav ul li a{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 40;
     color: #fff;
-}
-
-.content{
-    text-align: center;
 }
 
 #hjemInfo{
     color: white;
-    padding-top: 300px;
     font-size:40px;
     font-weight: 600;
 }
 
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.søkebar{
+    width: 100%;
+    max-width: 700%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.søkebar input{
+    background: transparent;
+    flex: 1;
+    border: 0; 
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cacf7;
+}
