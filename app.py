@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from yr import naa
-from yr import langtidsvarsel
+
 
 app = Flask(__name__)
 

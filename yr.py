@@ -1,4 +1,7 @@
 import requests as req
+import geocoder
+
+g = goecoder.arcgis("Sandvika")
 
 def naa(breddegrad, lengdegrad):
     url = f"https://api.met.no/weatherapi/locationforecast/2.0/complete?lat={breddegrad}&lon={lengdegrad}"
