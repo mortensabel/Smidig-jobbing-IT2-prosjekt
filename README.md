@@ -6,9 +6,9 @@ Dette skal bli en Vær-app. Den lages med Python, Flask, HTML og CSS.
 
 ## Skal gjøres
 
-- Lage HTML-mal i Flask
-- Legge til mulighet for å søke etter sted
 - Legge til langtidsvarsel
+- Legge til neste 12
+
 
 ## Logg
 
@@ -17,3 +17,9 @@ Dette skal bli en Vær-app. Den lages med Python, Flask, HTML og CSS.
 - Opprettet Flask-prosjekt
 - Henter vær fra Sandvika
 - Viser vær på nettsiden (foreløpig bare Sandvika)
+
+### Uke 1
+- Nå kan man skrive inn navnet på stedet. Følgelig vil lat og lng skrives automatisk inn i yr-api-en. 
+- Fikset litt på utseende til hjemsiden
+
+
