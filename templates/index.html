@@ -1,5 +1,20 @@
 {% extends "mal.html" %}
 
 {% block main %}
-<p id="hjemInfo">I {{sted}} er det {{vær}} grader</p>
+<!--Søkefelt og knapp-->
+    <form id="søkefelt" action="/" method="post">
+        <label for="værdata"></label>
+        <input id="inntast" type="text" name="værdata">
+        <button id="søkeknapp" type="submit">Send inn</button>
+</form>
+<!---->
+
+<!--La-->
+{% for sted in mine_steder %}
+<h3 id="hjemInfo">I {{sted[0]}} er det {{sted[1]}} grader. Vindstyrken er på {{sted[2]}}m/s</h3>
+{% endfor %}
+
+
+
 {% endblock %}
+

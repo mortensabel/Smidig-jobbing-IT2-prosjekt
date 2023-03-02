@@ -4,23 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Værsiden</title>
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <title>Yr</title>
     <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
 </head>
 <body>
-    <div class="hero">
-        <nav>
-            <a href="/"><img src="https://info.nrk.no/wp-content/uploads/2019/09/YR_blaa_rgb.png" class="logo"></a>
-            <ul>
-                <li><a href="/">Nå</a></li>
-                <li><a href="/">Neste 12</a></li>
-                <li><a href="/">Langtidsvarsel</a></li>
-            </ul>
-        </nav>
-        <div class="content">
-            {% block main %}{% endblock %}<h1>
-        </div>
+     <div class="innhold">
+        {% block main %}{% endblock %}<h1>
     </div>
 </body>
 </html>

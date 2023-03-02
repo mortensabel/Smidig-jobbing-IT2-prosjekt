@@ -1,15 +1,24 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from yr import naa
-
-
 
 app = Flask(__name__)
 
-@app.route("/")
+mine_steder = []
+
+@app.route("/", methods = ['GET', 'POST'])
 def index():
-    sted="sandvika"
-    vær = naa(sted)
-    return render_template("index.html", vær = vær, sted=sted)
+    mine_steder.clear()
+    if request.method == "POST":
+        værdata = request.form["værdata"]
+        mine_steder.append(naa(værdata))
+        
+
+    return render_template("index.html", mine_steder = mine_steder)
+
+
+
+
+
 
 
 
