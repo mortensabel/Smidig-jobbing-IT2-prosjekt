@@ -18,8 +18,11 @@ Dette skal bli en Vær-app. Den lages med Python, Flask, HTML og CSS.
 - Henter vær fra Sandvika
 - Viser vær på nettsiden (foreløpig bare Sandvika)
 
-### Uke 1
+### Uke 2
 - Nå kan man skrive inn navnet på stedet. Følgelig vil lat og lng skrives automatisk inn i yr-api-en. 
 - Fikset litt på utseende til hjemsiden
+
+### Uke 3
+- 
 
 

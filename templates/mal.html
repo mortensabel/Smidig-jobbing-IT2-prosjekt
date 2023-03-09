@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
 </head>
 <body>
+    <nav>
+        <a href="/">HJEM</a>
+        <a href="/nesteTolv">NESTE TOLV</a>
+        <a href="/kommendeUke">KOMMENDE UKE</a>
+    </nav>
      <div class="innhold">
         {% block main %}{% endblock %}<h1>
     </div>
